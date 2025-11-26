@@ -53,7 +53,7 @@ const Hero = () => {
           </p>
           
           <div className="hero-buttons">
-            <button onClick={() => scrollToSection('projects')} className="btn btn-primary">
+            <button onClick={() => scrollToSection('experience')} className="btn btn-primary">
               View My Work
             </button>
             <a href={`${import.meta.env.BASE_URL}Payel_Das_Resume.pdf`} download="Payel_Das_Resume.pdf" className="btn btn-secondary">
